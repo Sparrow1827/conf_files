@@ -1,4 +1,4 @@
-1. sudo pacman -S dmenu i3-gaps rofi alcritty nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal
+1. sudo pacman -S dmenu i3-gaps rofi alcritty nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal cutefish
 2. yay -S xbanish google-chrome spotify pavucontrol-qt youtube-dl
 3. for oh-my-sh -->   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 4. for powerlevel10k theme -->   git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
