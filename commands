@@ -1,2 +1,2 @@
-1. sudo pacman -S dmenu i3-gaps rofi alcritty nautilus gedit evince maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal
+1. sudo pacman -S dmenu i3-gaps rofi alcritty nautilus gedit zsh evince maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal
 2. yay -S xbanish google-chrome spotify pavucontrol-qt
