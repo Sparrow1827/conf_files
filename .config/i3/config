@@ -34,7 +34,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-exec --no-startup-id wal -i ~/Pictures/Wal/bg2.jpg
+exec --no-startup-id wal -i ~/Pictures/Wal/bg1.jpg
 
 exec --no-startup-id xbanish
 
