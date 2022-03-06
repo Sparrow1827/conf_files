@@ -1,6 +1,6 @@
-1. sudo pacman -S dmenu i3-gaps rofi alcritty nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal cutefish
+1. sudo pacman -S i3status dmenu i3-gaps rofi alacritty nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal cutefish
 2. yay -S xbanish google-chrome spotify pavucontrol-qt youtube-dl
-3. for oh-my-sh -->   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+3. for oh-my-zsh -->   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 4. for powerlevel10k theme -->   git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 5. for syntax highlightning -->   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 6. for rofi menu -->   git clone --depth=1 https://github.com/adi1090x/rofi.git
