@@ -6,5 +6,14 @@ First install the base arch system by archfi using the archfi script by the comm
 2. sh archfi
 
 then when archfi script ends click yes on archdi and install everything (pacman, yay, xorg, fonts, etc.) and then follow the commands in above commands.txt file
-and then move the config files into your .config dir.
-Now boot into cutefish os first and go into settings and change the fonts from default to whatever you like (deafult fonts look funky in i3) and then you're done. 
+and then move the config files into your .config dir and the .zshrc in $HOME dir.
+Now boot into cutefish os first and go into settings and change the fonts from default to whatever you like (deafult fonts look funky in i3).
+
+
+NOTE: when you follow the command in commands.txt after you've completed it do these commands:
+
+1. cd && cd rofi
+2. ./setup.sh
+
+
+and then choose the res and now you're done.
