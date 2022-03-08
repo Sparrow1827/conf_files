@@ -1,4 +1,6 @@
-![sysinfo](https://user-images.githubusercontent.com/87923259/156880365-7210f6f6-a02e-41f0-9e1c-b0f1192d6760.jpg)
+![sysinfo](https://user-images.githubusercontent.com/87923259/157228065-9b102730-99db-411e-b4d9-c7184b453cbc.jpg)
+
+
 First install the base arch system by archfi using the archfi script by the commands:
 
 
