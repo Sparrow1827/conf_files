@@ -20,4 +20,8 @@
 
 7. for graphite dark gtk theme -->  git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
                                     
-                                    and then cd into grapihte's dir and type in : ./install.sh --tweaks rimless
+                                    and then cd into graphite's dir and type in : ./install.sh --tweaks rimless
+                                    
+                                    and for grub cd into graphite's dir and then cd into other/grub2 and
+                                    
+                                    then type in : sudo ./install.sh
