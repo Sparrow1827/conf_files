@@ -1,4 +1,4 @@
-1. for all the porgrams -->   yay -S i3status cava htop dmenu i3-gaps rofi nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal cutefish xbanish google-chrome spotify gtk-engine-murrine sassc gtk3 pavucontrol-qt youtube-dl gtop librewolf-bin torbrowser-launcher kitty picom neovim
+1. for all the porgrams -->   yay -S i3status cava htop dmenu i3-gaps rofi nautilus gedit zsh evince vlc maim gthumb cheese rxvt-unicode feh imagemagick python-pip python-pywal cutefish xbanish google-chrome spotify gtk-engine-murrine sassc gtk3 pavucontrol-qt youtube-dl gtop librewolf-bin torbrowser-launcher kitty picom neovim adobe-source-code-pro-fonts
 
 
 2. for oh-my-zsh -->   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
