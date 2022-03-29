@@ -1,0 +1,5 @@
+1.  cd && mkdir qemu_img
+2.  qemu-img create -f qcow2 disk.qcow2 100G
+3.  mkdir -p "${PWD}/.tpm"
+4.  swtpm socket --tpmstate dir="${PWD}/.tpm" --ctrl type=unixio,path="${PWD}/.tpm/swtpm-sock" --tpm2 -d
+5.  sudo qemu-system-x86_64 -enable-kvm -m 4096 -smp $(nproc) -cpu host -device ac97 -audiodev alsa,id=snd0,out.buffer-length=500000,out.period-length=726 -usb -device usb-tablet -device virtio-keyboard-pci -net nic -net user -cdrom ~/Downloads/Win11_English_x64v1.iso -vga qxl -display spice-app,gl=on -hda ~/qemu_img/disk.qcow2 -machine q35,smm=on -global driver=cfi.pflash01,property=secure,value=on -drive if=pflash,format=raw,unit=0,file=/usr/share/edk2-ovmf/x64/OVMF_CODE.secboot.fd,readonly=on -drive if=pflash,format=raw,unit=1,file=/usr/share/OVMF/x64/OVMF_VARS.fd -chardev socket,id=chrtpm,path="${PWD}/.tpm/swtpm-sock" -tpmdev emulator,id=tpm0,chardev=chrtpm -device tpm-tis,tpmdev=tpm0 -drive file=/home/sparrow/Downloads/Win11_English_x64v1.iso,media=cdrom
