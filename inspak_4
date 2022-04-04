@@ -1,3 +1,0 @@
-#! /bin/bash
-
-cd && cd conf_files && cp -r ~/conf_files/.config/ ~/ && cd ~/Pictures && mkdir Wal && mv ~/conf_files/Wal/bg1.jpg ~/Pictures/Wal && yay -Syyu --noconfirm 
