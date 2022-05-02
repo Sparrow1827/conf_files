@@ -1,4 +1,7 @@
 # conf_files
+![sysinfo](https://user-images.githubusercontent.com/87923259/166197495-9ccd00c4-35b0-481d-8e4c-816fe9c85aa9.jpg)
+
+
 
 Just install the base system (linux, headers, pacman, yay, vim, etc.) and then clone this repo and type :
 
